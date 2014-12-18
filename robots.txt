@@ -1,0 +1,20 @@
+#Todos los robots
+
+User-agent: *
+
+#Acceso cada 60 segundos
+Crawl-delay: 60
+
+#Sin acceso
+Disallow: /stylesheets/
+Disallow: /javascripts/
+Disallow: /Nueva carpeta/
+Disallow: /_vti_txt/
+Disallow: /_vti_pvt/
+Disallow: /_vti_log/
+Disallow: /_vti_cnf/
+Disallow: /vti_bin/
+Disallow: /_BK/
+
+#Mapa del sitio
+Sitemap: http://www.perceptron.mx/sitemap.xml
